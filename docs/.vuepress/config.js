@@ -2,6 +2,7 @@ module.exports = {
     title: 'Hello 十三',
     description: 'VuePress_SS',
     base: '/vue_press_ss/' /* 基础虚拟路径 */,
+    // base: '../' /* 基础虚拟路径 */,
     dest: './dist',
     themeConfig: {
         sidebar: [
