@@ -4,7 +4,14 @@ module.exports = {
     // base: '/vue_press_ss/' /* 基础虚拟路径 */,
     base: '../' /* 基础虚拟路径 */,
     dest: './dist',
+    head: [
+        [
+            'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
+            { rel: 'icon', href: 'logo.png' }
+        ]
+    ],
     themeConfig: {
+        logo: './logo.png',
         sidebar: [
             {
                 title: '产品经理',
