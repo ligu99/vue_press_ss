@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Hello 十三',
     description: 'VuePress_SS',
-    base: '/vue_press_ss/' /* 基础虚拟路径 */,
-    // base: '../' /* 基础虚拟路径 */,
+    // base: '/vue_press_ss/' /* 基础虚拟路径 */,
+    base: '../' /* 基础虚拟路径 */,
     dest: './dist',
     themeConfig: {
         sidebar: [
@@ -12,12 +12,30 @@ module.exports = {
                 children: [
                     '/chapter1/1.自我介绍',
                     '/chapter1/2.产品思维',
-                    '/chapter1/7.为什么要当产品经理',
                     '/chapter1/3.如何从0到1实现产品',
+                    '/chapter1/4.产品经理需要具备的基本素质',
                     '/chapter1/5.产品经理面试常见问题',
                     '/chapter1/6.产品经理的日常工作',
-                    '/chapter1/4.产品经理需要具备的基本素质',
-                    '/chapter1/8.什么样的产品才算是一个好产品',
+                    '/chapter1/7.为什么要当产品经理',
+                    '/chapter1/产品分析报告模版',
+                    '/chapter1/产品经理的分类',
+                    '/chapter1/竞品分析-模版',
+                    '/chapter1/客户地图',
+                    '/chapter1/客户概况和价值图',
+                    '/chapter1/启示录-打造用户喜爱的产品',
+                    '/chapter1/商业模式',
+                    '/chapter1/商业模式画布',
+                    '/chapter1/数据产品经理修炼手册',
+                    '/chapter1/长尾理论-为什么商业的未来是小众市场',
+                    '/chapter1/PRD—模版',
+                ]
+            },
+            {
+                title: '读书笔记',
+                collapsable: false,
+                children: [
+                    '/chapter2/神策分析',
+                    '/chapter2/启示录',
                 ]
             },
             // {
@@ -32,9 +50,4 @@ module.exports = {
             //   }
         ]
     },
-    // sidebar: {
-    //     '/chapter1/': [{
-    //         title: "面试",
-    //         children: ["自我介绍"]
-    //     }]
 }
