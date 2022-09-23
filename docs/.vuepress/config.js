@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Hello 十三',
-    description: 'VuePress_SS',
-    // base: '/vue_press_ss/' /* 基础虚拟路径 */,
-    base: '../' /* 基础虚拟路径 */,
+    description: 'Hello 十三',
+    base: '/vue_press_ss/' /* DEV基础虚拟路径 */,
+    // base: '../' /* PROD 虚拟路径 */,
     dest: './dist',
     head: [
         [
