@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Hello 十三',
-    description: 'Hello 十三',
+    title: 'PhilNote',
+    description: '前端小笔记',
     base: '/vue_press_ss/' /* DEV基础虚拟路径 */,
     // base: '../' /* PROD 虚拟路径 */,
     dest: './dist',
