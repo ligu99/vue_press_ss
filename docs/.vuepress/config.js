@@ -30,7 +30,7 @@ module.exports = {
                     link: 'https://policies.google.com/privacy?hl=en-US',
                 },
                 {
-                    text: 'Copyright © 2023-present Phil',
+                    text: 'MIT Licensed | Copyright © 2023-present Phil',
                 },
             ],
         },
