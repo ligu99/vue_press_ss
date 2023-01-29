@@ -25,9 +25,13 @@ module.exports = {
                 // },
             ],
             copyright: [
+                // {
+                //     text: 'Privacy Policy',
+                //     link: 'https://policies.google.com/privacy?hl=en-US',
+                // },
                 {
-                    text: 'Privacy Policy',
-                    link: 'https://policies.google.com/privacy?hl=en-US',
+                    text:"粤ICP备2023006132号",
+                    link:"https://beian.miit.gov.cn/",
                 },
                 {
                     text: 'MIT Licensed | Copyright © 2023-present Phil',
