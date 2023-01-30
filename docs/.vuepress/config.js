@@ -30,7 +30,7 @@ module.exports = {
                 //     link: 'https://policies.google.com/privacy?hl=en-US',
                 // },
                 {
-                    text:"粤ICP备2023006132号",
+                    text:"粤ICP备2023006132号-1",
                     link:"https://beian.miit.gov.cn/",
                 },
                 {
