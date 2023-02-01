@@ -30,8 +30,8 @@ module.exports = {
                 //     link: 'https://policies.google.com/privacy?hl=en-US',
                 // },
                 {
-                    text:"粤ICP备2023006132号-1",
-                    link:"https://beian.miit.gov.cn/",
+                    text: "粤ICP备2023006132号-1",
+                    link: "https://beian.miit.gov.cn/",
                 },
                 {
                     text: 'MIT Licensed | Copyright © 2023-present Phil',
